@@ -1,16 +1,10 @@
 # push
 
-A new Flutter project.
+This is Flutter App using FCM
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- get file google-service.json at Firebase console[https://console.firebase.google.com] then add it to `android > app`
+- build the app and find token value (token ::: ) in console
+- send a test message in firebase console[https://console.firebase.google.com]
+- verify a notification your mobile
